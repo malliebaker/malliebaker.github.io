@@ -1,0 +1,177 @@
+@import "compass";
+@import url(https://fonts.googleapis.com/css?family=Didact+Gothic|Arimo:400,400italic,700);
+/***** CLEARFIX is applied to the parent of floated elements *************/
+/*************************************************************************/
+
+.clearfix {
+    zoom: 1;
+    &:before, &:after {
+        content: "";
+        display: table;
+    }
+    &:after {
+        clear: both;
+    }
+}
+
+/***** SITE STYLES *************/
+/**********************************/
+
+h1, h2, h3{
+
+	font-family: 'Didact Gothic', sans-serif;
+}
+
+
+p, li{
+
+	font-family: 'Arimo', sans-serif;
+}
+
+p{
+	line-height: 1.8em;
+}
+
+body{
+
+	background: url(../img/blackboard.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.wrapper{
+
+	color: white;
+	width: 90%;
+	margin: 0 auto;
+	padding: 0px 15px;
+
+	a{
+		color: white;
+	}
+
+}
+
+
+header{
+
+	text-align: center;
+	border: 1px solid white;
+	margin-top: 35px;
+
+	img{
+		width: 50%;
+		margin: 0 auto;
+		margin-top: 18px;
+	}
+
+	h1, h2{
+		margin-bottom: 30px;
+	}
+
+	a{
+		display: block;
+		margin-bottom: 18px;
+
+	}
+}
+
+nav{
+
+	margin-top: 55px;
+	margin-bottom: 55px;
+	text-align: center;
+	ul{
+		list-style: none;
+		padding: 0px;
+	}
+
+	a{
+		text-decoration: none;
+		font-weight: bold;
+		display: block;
+		margin-bottom: 20px;
+	}
+}
+
+
+
+
+footer{
+	border: 1px solid white;
+	text-align: center;
+	width: 90%;
+	color: white;
+	margin: 0 auto;
+	margin-bottom: 45px;
+
+	a{
+		color: white;
+		display: block;
+		margin-bottom: 25px;
+
+	}
+
+	img{
+		display: block;
+		margin: 0 auto;
+		width: 70%;
+		margin-bottom: 25px;
+		margin-top: 25px;
+	}
+
+}
+
+
+
+.statement{
+
+	img{
+		display: block;
+		margin: 0 auto;
+		width: 90%;
+	}
+
+	article{
+		margin: 50px 0px;
+	}
+}
+
+
+
+.education{
+
+	img{
+		display: block;
+		width: 90%;
+		margin: 0 auto;
+
+	}
+}
+
+
+
+.about{
+
+	img{
+		display: block;
+		width: 90%;
+		margin: 0 auto;
+
+	}
+
+	p{
+		text-align: center;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
