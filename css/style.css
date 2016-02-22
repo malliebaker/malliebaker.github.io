@@ -35,57 +35,55 @@ p {
 /* line 35, ../scss/style.scss */
 body {
   background: url(../img/blackboard.jpg);
-  position: fixed;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
-/* line 44, ../scss/style.scss */
+/* line 42, ../scss/style.scss */
 .wrapper {
   color: white;
   width: 90%;
   margin: 0 auto;
   padding: 0px 15px;
 }
-/* line 51, ../scss/style.scss */
+/* line 49, ../scss/style.scss */
 .wrapper a {
   color: white;
 }
 
-/* line 58, ../scss/style.scss */
+/* line 56, ../scss/style.scss */
 header {
   text-align: center;
   border: 1px solid white;
   margin-top: 35px;
 }
-/* line 64, ../scss/style.scss */
+/* line 62, ../scss/style.scss */
 header img {
   width: 50%;
   margin: 0 auto;
   margin-top: 18px;
 }
-/* line 70, ../scss/style.scss */
+/* line 68, ../scss/style.scss */
 header h1, header h2 {
   margin-bottom: 30px;
 }
-/* line 74, ../scss/style.scss */
+/* line 72, ../scss/style.scss */
 header a {
   display: block;
   margin-bottom: 18px;
 }
 
-/* line 81, ../scss/style.scss */
+/* line 79, ../scss/style.scss */
 nav {
   margin-top: 55px;
   margin-bottom: 55px;
   text-align: center;
 }
-/* line 86, ../scss/style.scss */
+/* line 84, ../scss/style.scss */
 nav ul {
   list-style: none;
   padding: 0px;
 }
-/* line 91, ../scss/style.scss */
+/* line 89, ../scss/style.scss */
 nav a {
   text-decoration: none;
   font-weight: bold;
@@ -93,7 +91,7 @@ nav a {
   margin-bottom: 20px;
 }
 
-/* line 102, ../scss/style.scss */
+/* line 100, ../scss/style.scss */
 footer {
   border: 1px solid white;
   text-align: center;
@@ -102,13 +100,13 @@ footer {
   margin: 0 auto;
   margin-bottom: 45px;
 }
-/* line 110, ../scss/style.scss */
+/* line 108, ../scss/style.scss */
 footer a {
   color: white;
   display: block;
   margin-bottom: 25px;
 }
-/* line 117, ../scss/style.scss */
+/* line 115, ../scss/style.scss */
 footer img {
   display: block;
   margin: 0 auto;
@@ -117,31 +115,31 @@ footer img {
   margin-top: 25px;
 }
 
-/* line 131, ../scss/style.scss */
+/* line 129, ../scss/style.scss */
 .statement img {
   display: block;
   margin: 0 auto;
   width: 90%;
 }
-/* line 137, ../scss/style.scss */
+/* line 135, ../scss/style.scss */
 .statement article {
   margin: 50px 0px;
 }
 
-/* line 146, ../scss/style.scss */
+/* line 144, ../scss/style.scss */
 .education img {
   display: block;
   width: 90%;
   margin: 0 auto;
 }
 
-/* line 158, ../scss/style.scss */
+/* line 156, ../scss/style.scss */
 .about img {
   display: block;
   width: 90%;
   margin: 0 auto;
 }
-/* line 165, ../scss/style.scss */
+/* line 163, ../scss/style.scss */
 .about p {
   text-align: center;
 }
