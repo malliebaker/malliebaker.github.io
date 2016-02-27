@@ -1,89 +1,89 @@
 @import url(https://fonts.googleapis.com/css?family=Didact+Gothic|Arimo:400,400italic,700);
 /***** CLEARFIX is applied to the parent of floated elements *************/
 /*************************************************************************/
-/* line 6, ../scss/style.scss */
+/* line 7, ../scss/style.scss */
 .clearfix {
   zoom: 1;
 }
-/* line 8, ../scss/style.scss */
+/* line 9, ../scss/style.scss */
 .clearfix:before, .clearfix:after {
   content: "";
   display: table;
 }
-/* line 12, ../scss/style.scss */
+/* line 13, ../scss/style.scss */
 .clearfix:after {
   clear: both;
 }
 
 /***** SITE STYLES *************/
 /**********************************/
-/* line 20, ../scss/style.scss */
+/* line 21, ../scss/style.scss */
 h1, h2, h3 {
   font-family: 'Didact Gothic', sans-serif;
 }
 
-/* line 26, ../scss/style.scss */
+/* line 27, ../scss/style.scss */
 p, li {
   font-family: 'Arimo', sans-serif;
 }
 
-/* line 31, ../scss/style.scss */
+/* line 32, ../scss/style.scss */
 p {
   line-height: 1.8em;
 }
 
-/* line 35, ../scss/style.scss */
+/* line 36, ../scss/style.scss */
 body {
   background: url(../img/blackboard.jpg);
   background-attachment: fixed;
 }
 
-/* line 42, ../scss/style.scss */
+/* line 43, ../scss/style.scss */
 .wrapper {
   color: white;
   width: 90%;
   margin: 0 auto;
   padding: 0px 15px;
 }
-/* line 49, ../scss/style.scss */
+/* line 50, ../scss/style.scss */
 .wrapper a {
   color: white;
 }
 
-/* line 56, ../scss/style.scss */
+/* line 57, ../scss/style.scss */
 header {
   text-align: center;
   border: 1px solid white;
   margin-top: 35px;
 }
-/* line 62, ../scss/style.scss */
+/* line 63, ../scss/style.scss */
 header img {
   width: 50%;
   margin: 0 auto;
   margin-top: 18px;
 }
-/* line 68, ../scss/style.scss */
+/* line 69, ../scss/style.scss */
 header h1, header h2 {
   margin-bottom: 30px;
 }
-/* line 72, ../scss/style.scss */
+/* line 73, ../scss/style.scss */
 header a {
   display: block;
   margin-bottom: 18px;
 }
 
-/* line 79, ../scss/style.scss */
+/* line 80, ../scss/style.scss */
 nav {
   margin-top: 55px;
   margin-bottom: 55px;
   text-align: center;
 }
-/* line 84, ../scss/style.scss */
+/* line 85, ../scss/style.scss */
 nav ul {
   list-style: none;
   padding: 0px;
 }
-/* line 89, ../scss/style.scss */
+/* line 90, ../scss/style.scss */
 nav a {
   text-decoration: none;
   font-weight: bold;
@@ -91,7 +91,7 @@ nav a {
   margin-bottom: 20px;
 }
 
-/* line 100, ../scss/style.scss */
+/* line 101, ../scss/style.scss */
 footer {
   border: 1px solid white;
   text-align: center;
@@ -100,13 +100,13 @@ footer {
   margin: 0 auto;
   margin-bottom: 45px;
 }
-/* line 108, ../scss/style.scss */
+/* line 109, ../scss/style.scss */
 footer a {
   color: white;
   display: block;
   margin-bottom: 25px;
 }
-/* line 115, ../scss/style.scss */
+/* line 116, ../scss/style.scss */
 footer img {
   display: block;
   margin: 0 auto;
@@ -115,31 +115,31 @@ footer img {
   margin-top: 25px;
 }
 
-/* line 129, ../scss/style.scss */
+/* line 130, ../scss/style.scss */
 .statement img {
   display: block;
   margin: 0 auto;
   width: 90%;
 }
-/* line 135, ../scss/style.scss */
+/* line 136, ../scss/style.scss */
 .statement article {
   margin: 50px 0px;
 }
 
-/* line 144, ../scss/style.scss */
+/* line 146, ../scss/style.scss */
 .education img {
   display: block;
   width: 90%;
   margin: 0 auto;
 }
 
-/* line 156, ../scss/style.scss */
+/* line 158, ../scss/style.scss */
 .about img {
   display: block;
   width: 90%;
   margin: 0 auto;
 }
-/* line 163, ../scss/style.scss */
+/* line 165, ../scss/style.scss */
 .about p {
   text-align: center;
 }

@@ -3,7 +3,10 @@ module.exports = function( grunt ){
     //1. configuration for grunt tasks that describe
     //how they should run and with what options
     grunt.initConfig({
-        //do compass stuff
+        // //do compass stuff
+
+
+
         compass : {
             options : {
                 sassDir : 'scss',
@@ -13,15 +16,17 @@ module.exports = function( grunt ){
                 options : {
                     outputStyle : 'expanded'
                 }
-            }
+            }    
         },
+
+
 
         //only used for js files
         //compass compiles all of the css
         watch : {
             styles : {
                 files : [ 'scss/*.scss' ],
-                tasks : [ 'compass:verbose' ]
+                // tasks : [ 'compass:verbose' ]
             }
         }
     });

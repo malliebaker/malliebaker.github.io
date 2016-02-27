@@ -1,4 +1,6 @@
 @import "compass";
+@import "bootstrap";
+
 @import url(https://fonts.googleapis.com/css?family=Didact+Gothic|Arimo:400,400italic,700);
 /***** CLEARFIX is applied to the parent of floated elements *************/
 /*************************************************************************/
@@ -134,6 +136,7 @@ footer{
 
 	article{
 		margin: 50px 0px;
+
 	}
 }
 
