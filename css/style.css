@@ -33,57 +33,64 @@ p {
 }
 
 /* line 36, ../scss/style.scss */
+.tag {
+  color: grey;
+}
+
+/* line 41, ../scss/style.scss */
 body {
   background: url(../img/blackboard.jpg);
   background-attachment: fixed;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
-/* line 43, ../scss/style.scss */
+/* line 50, ../scss/style.scss */
 .wrapper {
   color: white;
   width: 90%;
   margin: 0 auto;
   padding: 0px 15px;
 }
-/* line 50, ../scss/style.scss */
+/* line 57, ../scss/style.scss */
 .wrapper a {
   color: white;
 }
 
-/* line 57, ../scss/style.scss */
+/* line 64, ../scss/style.scss */
 header {
   text-align: center;
   border: 1px solid white;
   margin-top: 35px;
 }
-/* line 63, ../scss/style.scss */
+/* line 70, ../scss/style.scss */
 header img {
   width: 50%;
   margin: 0 auto;
   margin-top: 18px;
 }
-/* line 69, ../scss/style.scss */
+/* line 76, ../scss/style.scss */
 header h1, header h2 {
   margin-bottom: 30px;
 }
-/* line 73, ../scss/style.scss */
+/* line 80, ../scss/style.scss */
 header a {
   display: block;
   margin-bottom: 18px;
 }
 
-/* line 80, ../scss/style.scss */
+/* line 87, ../scss/style.scss */
 nav {
   margin-top: 55px;
   margin-bottom: 55px;
   text-align: center;
 }
-/* line 85, ../scss/style.scss */
+/* line 93, ../scss/style.scss */
 nav ul {
   list-style: none;
   padding: 0px;
 }
-/* line 90, ../scss/style.scss */
+/* line 98, ../scss/style.scss */
 nav a {
   text-decoration: none;
   font-weight: bold;
@@ -91,7 +98,7 @@ nav a {
   margin-bottom: 20px;
 }
 
-/* line 101, ../scss/style.scss */
+/* line 109, ../scss/style.scss */
 footer {
   border: 1px solid white;
   text-align: center;
@@ -100,13 +107,13 @@ footer {
   margin: 0 auto;
   margin-bottom: 45px;
 }
-/* line 109, ../scss/style.scss */
+/* line 117, ../scss/style.scss */
 footer a {
   color: white;
   display: block;
   margin-bottom: 25px;
 }
-/* line 116, ../scss/style.scss */
+/* line 124, ../scss/style.scss */
 footer img {
   display: block;
   margin: 0 auto;
@@ -115,18 +122,18 @@ footer img {
   margin-top: 25px;
 }
 
-/* line 130, ../scss/style.scss */
+/* line 138, ../scss/style.scss */
 .statement img {
   display: block;
   margin: 0 auto;
   width: 90%;
 }
-/* line 136, ../scss/style.scss */
+/* line 144, ../scss/style.scss */
 .statement article {
   margin: 50px 0px;
 }
 
-/* line 146, ../scss/style.scss */
+/* line 154, ../scss/style.scss */
 .education img, .experiences img {
   display: block;
   width: 90%;
@@ -135,20 +142,101 @@ footer img {
   margin-top: 45px;
 }
 
-/* line 159, ../scss/style.scss */
+/* line 167, ../scss/style.scss */
 .education p {
   margin-bottom: 75px;
 }
 
-/* line 166, ../scss/style.scss */
+/* line 174, ../scss/style.scss */
 .experiences h1, .about h1, .education h1 {
   border-bottom: 1px solid white;
 }
 
-/* line 176, ../scss/style.scss */
+/* line 184, ../scss/style.scss */
 .about img {
   display: block;
   width: 90%;
   margin: 0 auto;
   margin-bottom: 45px;
+}
+
+@media screen and (min-width: 750px) {
+  /* line 200, ../scss/style.scss */
+  header img {
+    width: 25%;
+    display: inline-block;
+    margin-bottom: 18px;
+    vertical-align: middle;
+  }
+  /* line 207, ../scss/style.scss */
+  header div {
+    display: inline-block;
+    vertical-align: middle;
+    width: 65%;
+  }
+
+  /* line 217, ../scss/style.scss */
+  nav li {
+    display: inline-block;
+    width: 20%;
+  }
+
+  /* line 224, ../scss/style.scss */
+  footer {
+    margin-top: 50px;
+  }
+  /* line 227, ../scss/style.scss */
+  footer img {
+    display: none;
+  }
+
+  /* line 236, ../scss/style.scss */
+  .statement img {
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 75px;
+  }
+  /* line 243, ../scss/style.scss */
+  .statement article {
+    display: inline-block;
+    margin: 0;
+    vertical-align: top;
+    width: 63%;
+  }
+  /* line 249, ../scss/style.scss */
+  .statement article h2 {
+    margin-top: 0;
+  }
+
+  /* line 258, ../scss/style.scss */
+  .about img {
+    width: 30%;
+    float: left;
+    margin: 0px 25px 0px 0px;
+  }
+
+  /* line 268, ../scss/style.scss */
+  .education img {
+    width: 35%;
+    float: right;
+    margin: 0px 0px 0px 25px;
+    vertical-align: top;
+  }
+  /* line 275, ../scss/style.scss */
+  .education div {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  /* line 286, ../scss/style.scss */
+  .experiences img {
+    width: 40%;
+    display: inline-block;
+    margin: 0 15px 0 15px;
+  }
+  /* line 293, ../scss/style.scss */
+  .experiences h2 {
+    margin-top: 50px;
+  }
 }
