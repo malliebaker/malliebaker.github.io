@@ -161,10 +161,14 @@ footer{
 	}
 }
 
+.experiences, .about, .education{
 
-.flip{
-	transform: rotate(90deg);
+	h1{
+		border-bottom: 1px solid white;
+	}
 }
+
+
 
 
 .about{

@@ -140,12 +140,12 @@ footer img {
   margin-bottom: 75px;
 }
 
-/* line 165, ../scss/style.scss */
-.flip {
-  transform: rotate(90deg);
+/* line 166, ../scss/style.scss */
+.experiences h1, .about h1, .education h1 {
+  border-bottom: 1px solid white;
 }
 
-/* line 172, ../scss/style.scss */
+/* line 176, ../scss/style.scss */
 .about img {
   display: block;
   width: 90%;
