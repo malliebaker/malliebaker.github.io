@@ -127,19 +127,20 @@ footer img {
 }
 
 /* line 146, ../scss/style.scss */
-.education img {
+.education img, .experiences img {
   display: block;
   width: 90%;
   margin: 0 auto;
+  margin-bottom: 45px;
 }
 
-/* line 158, ../scss/style.scss */
+/* line 161, ../scss/style.scss */
 .about img {
   display: block;
   width: 90%;
   margin: 0 auto;
 }
-/* line 165, ../scss/style.scss */
+/* line 168, ../scss/style.scss */
 .about p {
   text-align: center;
 }

@@ -1,5 +1,4 @@
 @import "compass";
-@import "bootstrap";
 
 @import url(https://fonts.googleapis.com/css?family=Didact+Gothic|Arimo:400,400italic,700);
 /***** CLEARFIX is applied to the parent of floated elements *************/
@@ -142,12 +141,15 @@ footer{
 
 
 
-.education{
+.education, .experiences{
 
 	img{
 		display: block;
 		width: 90%;
 		margin: 0 auto;
+		margin-bottom: 45px;
+
+
 
 	}
 }
