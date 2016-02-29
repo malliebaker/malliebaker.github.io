@@ -148,12 +148,23 @@ footer{
 		width: 90%;
 		margin: 0 auto;
 		margin-bottom: 45px;
-
-
-
+		margin-top: 45px;
 	}
 }
 
+
+
+.education{
+
+	p{
+		margin-bottom: 75px;
+	}
+}
+
+
+.flip{
+	transform: rotate(90deg);
+}
 
 
 .about{
@@ -162,11 +173,8 @@ footer{
 		display: block;
 		width: 90%;
 		margin: 0 auto;
+		margin-bottom: 45px;
 
-	}
-
-	p{
-		text-align: center;
 	}
 
 }

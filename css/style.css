@@ -132,15 +132,23 @@ footer img {
   width: 90%;
   margin: 0 auto;
   margin-bottom: 45px;
+  margin-top: 45px;
 }
 
-/* line 161, ../scss/style.scss */
+/* line 159, ../scss/style.scss */
+.education p {
+  margin-bottom: 75px;
+}
+
+/* line 165, ../scss/style.scss */
+.flip {
+  transform: rotate(90deg);
+}
+
+/* line 172, ../scss/style.scss */
 .about img {
   display: block;
   width: 90%;
   margin: 0 auto;
-}
-/* line 168, ../scss/style.scss */
-.about p {
-  text-align: center;
+  margin-bottom: 45px;
 }
